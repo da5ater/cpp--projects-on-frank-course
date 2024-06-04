@@ -1,0 +1,1 @@
+../build-Debug/MovieFans/Movies.cpp.o ../build-Debug/MovieFans/Movie.cpp.o ../build-Debug/MovieFans/main.cpp.o   

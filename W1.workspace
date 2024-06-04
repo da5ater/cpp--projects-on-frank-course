@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="W1" Database="" Version="10000">
+  <Project Name="CarpetService" Path="P1/P1.project" Active="No"/>
+  <Project Name="ChangeCalculator" Path="P2/P2.project" Active="No"/>
+  <Project Name="ListManipulator" Path="P3/P3.project" Active="No"/>
+  <Project Name="SubstitutionCypher" Path="p4/p4.project" Active="No"/>
+  <Project Name="LetterPyramid" Path="LetterPyramid/LetterPyramid.project" Active="No"/>
+  <Project Name="Dice" Path="Dice/Dice.project" Active="No"/>
+  <Project Name="ListManipulatorModularized" Path="function/function.project" Active="No"/>
+  <Project Name="ArrayMultiplication" Path="pointerandreference/pointerandreference.project" Active="No"/>
+  <Project Name="PlayerCount" Path="oop/oop.project" Active="No"/>
+  <Project Name="MovieFans" Path="MovieFans/MovieFans.project" Active="No"/>
+  <Project Name="operator" Path="operator/operator.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="CarpetService" ConfigName="Debug"/>
+      <Project Name="ChangeCalculator" ConfigName="Debug"/>
+      <Project Name="ListManipulator" ConfigName="Debug"/>
+      <Project Name="SubstitutionCypher" ConfigName="Debug"/>
+      <Project Name="LetterPyramid" ConfigName="Debug"/>
+      <Project Name="Dice" ConfigName="Debug"/>
+      <Project Name="ListManipulatorModularized" ConfigName="Debug"/>
+      <Project Name="ArrayMultiplication" ConfigName="Debug"/>
+      <Project Name="PlayerCount" ConfigName="Debug"/>
+      <Project Name="MovieFans" ConfigName="Debug"/>
+      <Project Name="operator" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="CarpetService" ConfigName="Release"/>
+      <Project Name="ChangeCalculator" ConfigName="Release"/>
+      <Project Name="ListManipulator" ConfigName="Release"/>
+      <Project Name="SubstitutionCypher" ConfigName="Release"/>
+      <Project Name="LetterPyramid" ConfigName="Release"/>
+      <Project Name="Dice" ConfigName="Release"/>
+      <Project Name="ListManipulatorModularized" ConfigName="Release"/>
+      <Project Name="ArrayMultiplication" ConfigName="Release"/>
+      <Project Name="PlayerCount" ConfigName="Release"/>
+      <Project Name="MovieFans" ConfigName="Release"/>
+      <Project Name="operator" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
