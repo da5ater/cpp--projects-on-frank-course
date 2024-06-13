@@ -4,20 +4,12 @@
 using namespace std;
 
 int main() {
-//    Mystring empty;                      // no-args constructor
-//    Mystring larry("Larry");             // overloaded constructor
-//    Mystring stooge {larry};            // copy constructor 
-//    
-//    empty.display();
-//    larry.display();
-//    stooge.display();
-
-    Mystring a {"hello"};
-    Mystring b;
+    Mystring a {"Hello"};
+    a = Mystring {"hola"};
+    a = "Bonjour";
     
-    b = a;
+    Mystring b {"hola"};
     
-    b = "this is a test";
-    
+    a = b;
     return 0;
 }

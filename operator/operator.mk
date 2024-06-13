@@ -6,15 +6,15 @@
 ProjectName            :=operator
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=G:/Mohamed/programming/CodeliteWorkspaces/projects
-ProjectPath            :=G:/Mohamed/programming/CodeliteWorkspaces/projects/operator
+WorkspacePath          :=G:/Mohamed/programming/CodeliteWorkspaces/projects/cpp--projects-on-frank-course
+ProjectPath            :=G:/Mohamed/programming/CodeliteWorkspaces/projects/cpp--projects-on-frank-course/operator
 IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/operator
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=vince
-Date                   :=05/06/2024
+Date                   :=13/06/2024
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir
 LinkerName             :=C:/mingw64/bin/g++.exe
@@ -29,7 +29,7 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=G:/Mohamed/programming/CodeliteWorkspaces/projects/build-$(WorkspaceConfiguration)/bin
+OutputDirectory        :=G:/Mohamed/programming/CodeliteWorkspaces/projects/cpp--projects-on-frank-course/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
@@ -96,12 +96,12 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "G:/Mohamed/programming/CodeliteWorkspaces/projects/operator/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "G:/Mohamed/programming/CodeliteWorkspaces/projects/cpp--projects-on-frank-course/operator/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
 $(IntermediateDirectory)/Mystring.cpp$(ObjectSuffix): Mystring.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "G:/Mohamed/programming/CodeliteWorkspaces/projects/operator/Mystring.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Mystring.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "G:/Mohamed/programming/CodeliteWorkspaces/projects/cpp--projects-on-frank-course/operator/Mystring.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Mystring.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Mystring.cpp$(PreprocessSuffix): Mystring.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Mystring.cpp$(PreprocessSuffix) Mystring.cpp
 

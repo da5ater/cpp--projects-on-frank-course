@@ -12,11 +12,12 @@ Mystring::Mystring()
 // Overloaded constructor
 Mystring::Mystring(const char *s) 
     : str {nullptr} {
+        std::cout << "overloaded constructor\n";
         if (s==nullptr) { // if s is empty
             str = new char[1];
             *str = '\0';
         } else {
-            str = new char[std::strlen(s)+1]; // iadded one because i need an extra character for theramnatin /0
+            str = new char[std::strlen(s)+1]; // iadded one because i need an extra character for theramnatin \0
             std::strcpy(str, s);
         }
 }
@@ -24,17 +25,20 @@ Mystring::Mystring(const char *s)
 // Copy constructor
 Mystring::Mystring(const Mystring &source)  // Deep copy
      : str{nullptr} {
+        std::cout << "deep copy\n";
         str = new char[std::strlen(source.str)+ 1];
         std::strcpy(str, source.str);
 }
 
 Mystring::Mystring (Mystring && source)  // move constructor 
     :str{source.str}    {
+        std::cout << "move constructor\n";
         source.str =nullptr;
     };
     
 // Destructor
 Mystring::~Mystring() {
+    std::cout << "destructor\n";
     delete [] str;
 }
 
@@ -51,7 +55,7 @@ void Mystring::display()  {
  
  // copy assignemt operator-overloading
  Mystring &Mystring::operator=(const Mystring &rhs){
-     std::cout << "copy assignment" <<std::endl;
+     std::cout << "copy assignment/n" <<std::endl;
      if (this == &rhs){
          return *this; //return current object
      }
@@ -64,11 +68,11 @@ void Mystring::display()  {
  }
 
 
- // move assignemt operator-overloading
+//move assignemt operator-overloading
 Mystring & Mystring::operator=(Mystring &&rhs){   
-    std::cout << "move assignemt" << std::endl;
+    std::cout << "move assignemt\n" << std::endl;
     
-    if (this == &rhs){
+    if (this == &rhs){ //if the address og the current object is equal to the address of the rhs object
          return *this; //return current object
      }
      
