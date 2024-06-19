@@ -55,7 +55,7 @@ void Mystring::display()  {
  
  // copy assignemt operator-overloading
  Mystring &Mystring::operator=(const Mystring &rhs){
-     std::cout << "copy assignment/n" <<std::endl;
+     std::cout << "copy assignment\n" <<std::endl;
      if (this == &rhs){
          return *this; //return current object
      }
@@ -80,6 +80,41 @@ Mystring & Mystring::operator=(Mystring &&rhs){
      str = rhs.str;
      rhs.str = nullptr;
      return *this;
+}
+
+Mystring Mystring::operator-() const{
+    char* buff = new char[strlen(str) + 1];
+    
+    strcpy(buff , str);
+    
+    for(size_t i = 0 ; i < strlen(buff) ; i++){
+        buff[i] = tolower(buff[i]);
+    }
+    
+    Mystring temp {buff};
+    
+    return temp;
+}
+
+Mystring Mystring::operator+(const Mystring& rhs) const {
+    char* buff = new char[strlen(str) + strlen(rhs.str) + 1];
+    
+    strcpy(buff , str);
+    strcpy(buff , rhs.str);
+    
+    Mystring temp{buff};
+    delete [] buff;
+    
+    return temp;
+    
+}
+
+bool Mystring::operator==(const  Mystring& rhs) const {
+    if (strcmp(str , rhs.str) == 0 ) {
+        return true;
+    }else {
+        return false;
+    }
 }
 
 

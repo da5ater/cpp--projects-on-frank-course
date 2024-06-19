@@ -15,9 +15,11 @@ public :
     void display ();
     int get_length();
     const char* get_str();
-    Mystring &operator=(const Mystring &rhs);  //  assignment operator overloading using copy constructor
-    Mystring &operator=(Mystring &&rhs);      //  assignment operator overloading  using move constructor
-  
+    Mystring &operator=(const Mystring &rhs);           //  assignment operator overloading using copy constructor
+    Mystring &operator=(Mystring &&rhs);               //  assignment operator overloading  using move constructor
+    Mystring operator-() const;                       //  make lower case
+    Mystring operator+(const Mystring& rhs) const;   //  concatenation
+    bool operator==(const  Mystring& rhs) const;
 };
 
 #endif // _MYSTRING_H_
