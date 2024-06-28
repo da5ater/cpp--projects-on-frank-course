@@ -4,33 +4,18 @@
 using namespace std;
 
 int main() {
-    Mystring a {"Hello"};
-    a = Mystring {"hola"};
-    a = "Bonjour";
+    Mystring mohamed {"mohamed"};
+    Mystring osama   {"osama"}  ;
+    Mystring khater             ;
     
-    Mystring b {"hola"};
+    cout << "enter the family name \n";
+    cin >> khater;
     
-    a = b;
-    
-    cout << boolalpha <<endl;
-    
-    Mystring mohamed {"MOHAMED"};
+    cout << "your name is \n";
+    cout << mohamed  << osama << khater;
     
     
-    mohamed.display();
     
-    mohamed = -mohamed;
-    
-    mohamed.display();
-    
-    
-    mohamed = mohamed + "khater";
-    mohamed.display();
-    
-    Mystring hassan  {"hassan" };
-    hassan.display();
-    
-    cout << (mohamed == hassan) << endl;
     
     
 }

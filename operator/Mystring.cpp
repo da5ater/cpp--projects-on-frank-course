@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Mystring.h"
 
+
 // No-args constructor
 Mystring::Mystring()
     :str{nullptr} {
@@ -82,25 +83,26 @@ Mystring & Mystring::operator=(Mystring &&rhs){
      return *this;
 }
 
-Mystring Mystring::operator-() const{
-    char* buff = new char[strlen(str) + 1];
+Mystring operator-(const Mystring& obj){
+    char* buff = new char[strlen(obj.str) + 1];
     
-    strcpy(buff , str);
+    strcpy(buff , obj.str);
     
     for(size_t i = 0 ; i < strlen(buff) ; i++){
         buff[i] = tolower(buff[i]);
     }
     
     Mystring temp {buff};
+    delete [] buff;
     
     return temp;
 }
 
-Mystring Mystring::operator+(const Mystring& rhs) const {
-    char* buff = new char[strlen(str) + strlen(rhs.str) + 1];
+Mystring operator+(const Mystring& rhs , const Mystring& lhs)  {
+    char* buff = new char[strlen(lhs.str) + strlen(rhs.str) + 1];
     
-    strcpy(buff , str);
-    strcpy(buff , rhs.str);
+    strcpy(buff , lhs.str);
+    strcat(buff , rhs.str);
     
     Mystring temp{buff};
     delete [] buff;
@@ -109,13 +111,21 @@ Mystring Mystring::operator+(const Mystring& rhs) const {
     
 }
 
-bool Mystring::operator==(const  Mystring& rhs) const {
-    if (strcmp(str , rhs.str) == 0 ) {
-        return true;
-    }else {
-        return false;
-    }
+bool operator==(const  Mystring& rhs , const  Mystring& lhs)  {
+    return strcmp(lhs.str , rhs.str) == 0 ;
 }
 
 
 
+std::ostream& operator<<(std::ostream& os, const Mystring& obj) {
+    os << obj.str;
+    return os;
+}
+std::istream& operator>>(std::istream& is,  Mystring& obj) {
+    char* buff = new char[100];
+    is >> buff;
+    
+    obj = Mystring {buff};  // copy and move semantics
+    delete [] buff;
+    return is;
+}

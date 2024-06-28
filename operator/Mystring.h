@@ -3,6 +3,11 @@
 
 class Mystring
 {
+    friend std::ostream& operator<<(std::ostream& os, const Mystring& obj);
+    friend std::istream& operator>>(std::istream& is,  Mystring& obj);
+    friend bool operator==(const  Mystring& rhs , const  Mystring& lhs) ;
+    friend  Mystring operator-(const Mystring& obj) ; 
+    friend Mystring operator+(const Mystring& rhs , const Mystring& lhs) ;
 private :
     char *str;
 
@@ -17,9 +22,9 @@ public :
     const char* get_str();
     Mystring &operator=(const Mystring &rhs);           //  assignment operator overloading using copy constructor
     Mystring &operator=(Mystring &&rhs);               //  assignment operator overloading  using move constructor
-    Mystring operator-() const;                       //  make lower case
-    Mystring operator+(const Mystring& rhs) const;   //  concatenation
-    bool operator==(const  Mystring& rhs) const;
+//    Mystring operator-() const;                       //  make lower case
+//    Mystring operator+(const Mystring& rhs) const;   //  concatenation
+//    bool operator==(const  Mystring& rhs) const;
 };
 
 #endif // _MYSTRING_H_
