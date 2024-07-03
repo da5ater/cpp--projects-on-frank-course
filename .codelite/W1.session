@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="G:\Mohamed\programming\CodeliteWorkspaces\projects\cpp--projects-on-frank-course\W1.workspace">
-  <int Value="2" Name="m_selectedTab"/>
+  <int Value="0" Name="m_selectedTab"/>
   <wxString Value="G:\Mohamed\programming\CodeliteWorkspaces\projects\cpp--projects-on-frank-course\W1.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="G:\Mohamed\programming\CodeliteWorkspaces\projects\cpp--projects-on-frank-course\operator\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="1" Name="CurrentLine"/>
+      <wxString Value="G:\Mohamed\programming\CodeliteWorkspaces\Section-14-Operator-Overloading-Source-code\Section14\Challenge\main.cpp" Name="FileName"/>
+      <int Value="36" Name="FirstVisibleLine"/>
+      <int Value="2" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="G:\Mohamed\programming\CodeliteWorkspaces\projects\cpp--projects-on-frank-course\operator\Mystring.h" Name="FileName"/>
+      <wxString Value="G:\Mohamed\programming\CodeliteWorkspaces\Section-14-Operator-Overloading-Source-code\Section14\Challenge\Mystring.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="6" Name="CurrentLine"/>
+      <int Value="7" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="G:\Mohamed\programming\CodeliteWorkspaces\projects\cpp--projects-on-frank-course\operator\Mystring.cpp" Name="FileName"/>
-      <int Value="87" Name="FirstVisibleLine"/>
-      <int Value="101" Name="CurrentLine"/>
+      <wxString Value="G:\Mohamed\programming\CodeliteWorkspaces\Section-14-Operator-Overloading-Source-code\Section14\Challenge\Mystring.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="G:\Mohamed\programming\CodeliteWorkspaces\Section-14-Operator-Overloading-Source-code\Section14\Challenge\Challenge.txt" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="G:\Mohamed\programming\CodeliteWorkspaces\Section-14-Operator-Overloading-Source-code\Section14\Challenge\Description.txt" Name="FileName"/>
+      <int Value="30" Name="FirstVisibleLine"/>
+      <int Value="49" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
