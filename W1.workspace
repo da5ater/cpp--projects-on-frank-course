@@ -10,7 +10,8 @@
   <Project Name="ArrayMultiplication" Path="pointerandreference/pointerandreference.project" Active="No"/>
   <Project Name="PlayerCount" Path="oop/oop.project" Active="No"/>
   <Project Name="MovieFans" Path="MovieFans/MovieFans.project" Active="No"/>
-  <Project Name="operator" Path="operator/operator.project" Active="Yes"/>
+  <Project Name="operator" Path="operator/operator.project" Active="No"/>
+  <Project Name="inheritance" Path="inheritance/inheritance.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -25,6 +26,7 @@
       <Project Name="PlayerCount" ConfigName="Debug"/>
       <Project Name="MovieFans" ConfigName="Debug"/>
       <Project Name="operator" ConfigName="Debug"/>
+      <Project Name="inheritance" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -39,6 +41,7 @@
       <Project Name="PlayerCount" ConfigName="Release"/>
       <Project Name="MovieFans" ConfigName="Release"/>
       <Project Name="operator" ConfigName="Release"/>
+      <Project Name="inheritance" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
