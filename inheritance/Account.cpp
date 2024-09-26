@@ -1,24 +1,31 @@
 #include "Account.h"
-#include <iostream>
 
-Account::Account () : name{"account"}
-{
-    std ::cout << "constructor for -> " << this << std::endl;
+Account::Account(std::string name, double balance) 
+    : name{name}, balance{balance} {
 }
 
-Account::~Account()
-{
-       std ::cout << "destructor for -> " << this << std::endl;
+bool Account::deposit(double amount) {
+    if (amount < 0) 
+        return false;
+    else {
+        balance += amount;
+        return true;
+    }
 }
 
-void Account::deposit(double amount) {
-    std::cout << "deposit : " << amount << std::endl;
+bool Account::withdraw(double amount) {
+    if (balance-amount >=0) {
+        balance-=amount;
+        return true;
+    } else
+        return false;
 }
 
-void Account::withdraw(double amount){
-    std::cout << "withdraw : " << amount << std::endl;        
+double Account::get_balance() const {
+    return balance;
 }
 
-
-
-
+std::ostream &operator<<(std::ostream &os, const Account &account) {
+    os << "[Account: " << account.name << ": " << account.balance << "]";
+    return os;
+}

@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=inheritance
+ProjectName            :=PlayerCount
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
 WorkspacePath          :=G:/Mohamed/programming/CodeliteWorkspaces/projects/cpp--projects-on-frank-course
-ProjectPath            :=G:/Mohamed/programming/CodeliteWorkspaces/projects/cpp--projects-on-frank-course/inheritance
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/inheritance
+ProjectPath            :=G:/Mohamed/programming/CodeliteWorkspaces/projects/cpp--projects-on-frank-course/oop
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/oop
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -64,7 +64,7 @@ AS       := C:/mingw64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/Savings_Account.cpp$(ObjectSuffix) $(IntermediateDirectory)/Account.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/Player.cpp$(ObjectSuffix) 
 
 
 
@@ -95,20 +95,15 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/Savings_Account.cpp$(ObjectSuffix): Savings_Account.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "G:/Mohamed/programming/CodeliteWorkspaces/projects/cpp--projects-on-frank-course/inheritance/Savings_Account.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Savings_Account.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Savings_Account.cpp$(PreprocessSuffix): Savings_Account.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Savings_Account.cpp$(PreprocessSuffix) Savings_Account.cpp
-
-$(IntermediateDirectory)/Account.cpp$(ObjectSuffix): Account.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "G:/Mohamed/programming/CodeliteWorkspaces/projects/cpp--projects-on-frank-course/inheritance/Account.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Account.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Account.cpp$(PreprocessSuffix): Account.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Account.cpp$(PreprocessSuffix) Account.cpp
-
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "G:/Mohamed/programming/CodeliteWorkspaces/projects/cpp--projects-on-frank-course/inheritance/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "G:/Mohamed/programming/CodeliteWorkspaces/projects/cpp--projects-on-frank-course/oop/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
+
+$(IntermediateDirectory)/Player.cpp$(ObjectSuffix): Player.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "G:/Mohamed/programming/CodeliteWorkspaces/projects/cpp--projects-on-frank-course/oop/Player.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Player.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Player.cpp$(PreprocessSuffix): Player.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Player.cpp$(PreprocessSuffix) Player.cpp
 
 ##
 ## Clean

@@ -27,6 +27,8 @@
       <Project Name="MovieFans" ConfigName="Debug"/>
       <Project Name="operator" ConfigName="Debug"/>
       <Project Name="inheritance" ConfigName="Debug"/>
+      <Project Name="inheritance__" ConfigName="Debug"/>
+      <Project Name="inheritance" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -41,6 +43,8 @@
       <Project Name="PlayerCount" ConfigName="Release"/>
       <Project Name="MovieFans" ConfigName="Release"/>
       <Project Name="operator" ConfigName="Release"/>
+      <Project Name="inheritance" ConfigName="Release"/>
+      <Project Name="inheritance__" ConfigName="Release"/>
       <Project Name="inheritance" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
