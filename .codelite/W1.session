@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="G:\Mohamed\programming\CodeliteWorkspaces\projects\cpp--projects-on-frank-course\W1.workspace">
-  <int Value="0" Name="m_selectedTab"/>
-  <wxString Value="G:\Mohamed\programming\CodeliteWorkspaces\projects\cpp--projects-on-frank-course\W1.workspace" Name="m_workspaceName"/>
+<Session Name="D:\asus\programming\cpp--projects-on-frank-course\W1.workspace">
+  <int Value="3" Name="m_selectedTab"/>
+  <wxString Value="D:\asus\programming\cpp--projects-on-frank-course\W1.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="G:\Mohamed\programming\CodeliteWorkspaces\projects\cpp--projects-on-frank-course\inheritance\main.cpp" Name="FileName"/>
+      <wxString Value="D:\asus\programming\cpp--projects-on-frank-course\inheritance\main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="2" Name="CurrentLine"/>
+      <int Value="9" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\asus\programming\cpp--projects-on-frank-course\inheritance\Savings_Account.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\asus\programming\cpp--projects-on-frank-course\P3\main.cpp" Name="FileName"/>
+      <int Value="9" Name="FirstVisibleLine"/>
+      <int Value="8" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\asus\programming\cpp--projects-on-frank-course\tst\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="4" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

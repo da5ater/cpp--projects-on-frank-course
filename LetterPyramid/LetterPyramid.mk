@@ -6,15 +6,15 @@
 ProjectName            :=LetterPyramid
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=G:/Mohamed/programming/CodeliteWorkspaces/projects
-ProjectPath            :=G:/Mohamed/programming/CodeliteWorkspaces/projects/LetterPyramid
+WorkspacePath          :=D:/asus/programming/cpp--projects-on-frank-course
+ProjectPath            :=D:/asus/programming/cpp--projects-on-frank-course/LetterPyramid
 IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/LetterPyramid
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=vince
-Date                   :=15/02/2024
+Date                   :=10/5/2024
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir
 LinkerName             :=C:/mingw64/bin/g++.exe
@@ -29,7 +29,7 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=G:/Mohamed/programming/CodeliteWorkspaces/projects/build-$(WorkspaceConfiguration)/bin
+OutputDirectory        :=D:/asus/programming/cpp--projects-on-frank-course/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "G:/Mohamed/programming/CodeliteWorkspaces/projects/LetterPyramid/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/asus/programming/cpp--projects-on-frank-course/LetterPyramid/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ inheritance - Debug ]----------"
-	@cd "inheritance" && "$(MAKE)" -f  "inheritance.mk"
+	@echo "----------Building project:[ tst - Debug ]----------"
+	@cd "tst" && "$(MAKE)" -f  "tst.mk"
 clean:
-	@echo "----------Cleaning project:[ inheritance - Debug ]----------"
-	@cd "inheritance" && "$(MAKE)" -f  "inheritance.mk" clean
+	@echo "----------Cleaning project:[ tst - Debug ]----------"
+	@cd "tst" && "$(MAKE)" -f  "tst.mk" clean

@@ -10,8 +10,8 @@
   <Project Name="ArrayMultiplication" Path="pointerandreference/pointerandreference.project" Active="No"/>
   <Project Name="PlayerCount" Path="oop/oop.project" Active="No"/>
   <Project Name="MovieFans" Path="MovieFans/MovieFans.project" Active="No"/>
-  <Project Name="operator" Path="operator/operator.project" Active="No"/>
-  <Project Name="inheritance" Path="inheritance/inheritance.project" Active="Yes"/>
+  <Project Name="operator" Path="operator/operator.project" Active="Yes"/>
+  <Project Name="inheritance" Path="inheritance/inheritance.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
