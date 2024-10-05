@@ -66,7 +66,7 @@ int main() {
     // Shape s;
     // Shape *p = new Shape();
 
-    std::cout << "hellow";
+    std::cout << "hellow"cc;
 //        Circle c;
 //        c.draw();
 
