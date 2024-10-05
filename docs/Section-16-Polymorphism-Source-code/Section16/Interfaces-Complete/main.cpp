@@ -7,7 +7,7 @@ class I_Printable {
     friend std::ostream &operator<<(std::ostream &os, const I_Printable &obj);
 public:
     virtual void print(std::ostream &os) const = 0;
-    virtual ~I_Printable {};
+    virtual ~I_Printable() {};
 };
 
 std::ostream &operator<<(std::ostream &os, const I_Printable &obj) {
@@ -81,7 +81,7 @@ int main() {
     print(*dog);
     
     Account *p1 = new Account();
-    std::cout << *p1<< std::endl;
+    print(*p1);
         
     Account *p2 = new Checking();
     std::cout << *p2<< std::endl;  
