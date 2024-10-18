@@ -1,11 +1,14 @@
 #ifndef __ILLEGAL_BALANCE_EXCEPTION_H__
 #define __ILLEGAL_BALANCE_EXCEPTION_H__
 
-class IllegalBalanceException
-{
+class IllegalBalanceException : public std::exception {
 public:
-    IllegalBalanceException() {}
-    ~IllegalBalanceException() {}
+  IllegalBalanceException() noexcept = default;
+  virtual ~IllegalBalanceException() = default;
+
+  virtual const char *what() const noexcept {
+    return "IllegalBalanceException";
+  };
 };
 
 #endif // __ILLEGAL_BALANCE_EXCEPTION_H__
