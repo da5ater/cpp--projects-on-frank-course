@@ -1,0 +1,5 @@
+[{
+  "file": "D:\\asus\\programming\\cpp--projects-on-frank-course\\temp\\tempp\\tempp\\main.cpp",
+  "directory": "D:\\asus\\programming\\cpp--projects-on-frank-course\\temp\\tempp\\tempp",
+  "command": "C:/mingw64/bin/g++.exe -c D:\\asus\\programming\\cpp--projects-on-frank-course\\temp\\tempp\\tempp\\main.cpp -o D:\\asus\\programming\\cpp--projects-on-frank-course\\temp\\tempp\\tempp\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+ }]

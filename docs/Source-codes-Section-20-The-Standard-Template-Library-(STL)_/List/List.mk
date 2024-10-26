@@ -6,15 +6,15 @@
 ProjectName            :=List
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :="G:/My Drive/VideoCourses/Beginning C++ - Complete/CPPExamples-Complete/CPPExamples/Section20"
-ProjectPath            :="G:/My Drive/VideoCourses/Beginning C++ - Complete/CPPExamples-Complete/CPPExamples/Section20/List"
+WorkspacePath          :=D:/asus/programming/cpp--projects-on-frank-course/docs/Source-codes-Section-20-The-Standard-Template-Library-(STL)_
+ProjectPath            :=D:/asus/programming/cpp--projects-on-frank-course/docs/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/List
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=frank
-Date                   :=18/06/2023
+User                   :=vince
+Date                   :=10/26/2024
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/mingw64/bin/g++.exe
 SharedObjectLinkerName :=C:/mingw64/bin/g++.exe -shared -fPIC
@@ -36,7 +36,7 @@ ArchiveOutputSwitch    :=
 PreprocessOnlySwitch   :=-E
 ObjectsFileList        :="List.txt"
 PCHCompileFlags        :=
-MakeDirCommand         :="C:/Program Files/CodeLite/mkdir.exe" -p
+MakeDirCommand         :=makedir
 RcCmpOptions           := 
 RcCompilerName         :=C:/mingw64/bin/windres.exe
 LinkOptions            :=  
@@ -64,7 +64,6 @@ AS       := C:/mingw64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-SHELL:=cmd.exe
 Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
 
 
@@ -97,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "G:/My Drive/VideoCourses/Beginning C++ - Complete/CPPExamples-Complete/CPPExamples/Section20/List/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/asus/programming/cpp--projects-on-frank-course/docs/Source-codes-Section-20-The-Standard-Template-Library-(STL)_/List/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 

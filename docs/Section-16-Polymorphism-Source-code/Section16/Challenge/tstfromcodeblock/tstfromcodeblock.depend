@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1729916954 source:d:\asus\programming\cpp--projects-on-frank-course\docs\section-16-polymorphism-source-code\section16\challenge\main.cpp
+	"Account.h"
+	"Account_Util.h"
+	"Checking_Account.h"
+	"Savings_Account.h"
+	"Trust_Account.h"
+	<iostream>
+	<vector>
+
+1728340587 d:\asus\programming\cpp--projects-on-frank-course\docs\section-16-polymorphism-source-code\section16\challenge\account.h
+	"I_Printable.hpp"
+	<string>
+
+1728502604 d:\asus\programming\cpp--projects-on-frank-course\docs\section-16-polymorphism-source-code\section16\challenge\i_printable.hpp
+	<iostream>
+
+1728337169 d:\asus\programming\cpp--projects-on-frank-course\docs\section-16-polymorphism-source-code\section16\challenge\account_util.h
+	"Account.h"
+	"Checking_Account.h"
+	"Savings_Account.h"
+	"Trust_Account.h"
+	<vector>
+
+1728340630 d:\asus\programming\cpp--projects-on-frank-course\docs\section-16-polymorphism-source-code\section16\challenge\checking_account.h
+	"Account.h"
+	<iostream>
+	<string>
+
+1728340876 d:\asus\programming\cpp--projects-on-frank-course\docs\section-16-polymorphism-source-code\section16\challenge\savings_account.h
+	"Account.h"
+
+1728340894 d:\asus\programming\cpp--projects-on-frank-course\docs\section-16-polymorphism-source-code\section16\challenge\trust_account.h
+	"Savings_Account.h"
+
+1584209020 source:d:\asus\programming\cpp--projects-on-frank-course\docs\section-16-polymorphism-source-code\section16\challenge\tstfromcodeblock\main.cpp
+	<iostream>
+
+1728504897 source:d:\asus\programming\cpp--projects-on-frank-course\docs\section-16-polymorphism-source-code\section16\challenge\checking_account.cpp
+	"Checking_Account.h"
+
+1728508183 source:d:\asus\programming\cpp--projects-on-frank-course\docs\section-16-polymorphism-source-code\section16\challenge\i_printable.cpp
+	"I_Printable.hpp"
+
+1728339986 source:d:\asus\programming\cpp--projects-on-frank-course\docs\section-16-polymorphism-source-code\section16\challenge\savings_account.cpp
+	"Savings_Account.h"
+
+1728339994 source:d:\asus\programming\cpp--projects-on-frank-course\docs\section-16-polymorphism-source-code\section16\challenge\trust_account.cpp
+	"Trust_Account.h"
+

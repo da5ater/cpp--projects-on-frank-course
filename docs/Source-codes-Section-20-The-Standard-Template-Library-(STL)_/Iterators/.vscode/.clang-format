@@ -1,0 +1,40 @@
+
+BasedOnStyle: LLVM # Can be changed to Google, Mozilla, WebKit, or Chromium as per preference
+IndentWidth: 4 # Sets indentation width to 4 spaces
+TabWidth: 4 # Ensures tabs take up 4 spaces
+UseTab: Never # Use spaces instead of tabs
+ColumnLimit: 100 # Max line length for wrapping
+ContinuationIndentWidth: 4 # Indent width for lines continuing from the previous line
+SpacesBeforeTrailingComments: 2 # Adds space before inline comments
+
+# Braces control
+BreakBeforeBraces: Custom # Customize brace breaking style
+BraceWrapping:
+  AfterClass: true # Break line after class definition
+  AfterControlStatement: true # Break line after control statements (if, for, while, etc.)
+  AfterFunction: true # Break line after function definitions
+  AfterNamespace: true
+  AfterStruct: true
+  BeforeCatch: true
+  BeforeElse: true
+
+# Control of function declarations/definitions
+AlwaysBreakAfterReturnType: TopLevelDefinitions # Break after return type in top-level functions
+AlignAfterOpenBracket: Align # Align parameters in function declarations after open bracket
+AlignConsecutiveAssignments: true # Align consecutive assignments for better readability
+
+# Pointer and reference alignment
+PointerAlignment: Left # Align pointers with the type (e.g., int* ptr; -> int *ptr;)
+
+# Namespace indentation
+IndentNamespace: None # Don't indent within namespaces
+
+# Control of function parameter alignment
+AlignOperands: true # Align operators for better readability in multiline expressions
+AlignTrailingComments: true # Align trailing comments for better readability
+
+# Include sorting
+SortIncludes: true # Sort include directives alphabetically
+IncludeBlocks: Preserve # Keeps existing include blocks as they are
+IncludeIsMainRegex: '(Test)?$' # Allows more control over which includes appear first
+ReflowComments: true # Ensures comments are reformatted for better readability
